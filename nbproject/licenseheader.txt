@@ -1,0 +1,8 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}Software Desenvolvido por: João Carlos
+${licensePrefix}Todos os Direitos reservados para JC - Soluções em TI
+<#if licenseLast??>
+${licenseLast}
+</#if>

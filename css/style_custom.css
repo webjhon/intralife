@@ -1,0 +1,97 @@
+#menu_topo{
+  padding-top: 2%;
+}
+
+#msg_sucesso{
+  display: none;
+}
+
+#msg_erro {
+  display: none;
+}
+.loader{
+  width: 50px;
+  height: 50px;
+}
+
+.loader2{
+  width: 50px;
+  height: 50px
+}
+#cadastro_ok{
+  display: none;
+}
+#erro_cadastro{
+  display: none;
+}
+
+#nome_vazio,#email_vazio,#login_vazio,#senha_vazio,#curso_vazio, #turno_vazio, #cadastro_vazio,#foto_vazio,#loader,#loading{display:none};
+
+#busca_estagiarios{
+  float: left;
+}
+
+#procura_estagiario{
+  float: right;
+}
+
+/* unvisited link */
+#retorno_filtro a:link {
+  text-decoration: none;
+}
+
+/* visited link */
+#retorno_filtro a:visited {
+  text-decoration: none;
+}
+
+/* mouse over link */
+#retorno_filtro a:hover {
+  background-color: #efa95e;
+  color: white;
+}
+
+/* selected link */
+#retorno_filtro a:active {
+  text-decoration: none;
+}
+
+.btn-social {
+  color: white;
+  opacity: 0.8;
+}
+
+.btn-social:hover {
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
+
+.btn-facebook {
+  background-color: #3b5998;
+}
+
+.btn-twitter {
+  background-color: #00aced;
+}
+
+.btn-linkedin {
+  background-color: #0e76a8;
+}
+
+.btn-google {
+  background-color: #c32f10;
+}
+
+#parent {    
+    text-align: center;
+}
+#carregando {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
